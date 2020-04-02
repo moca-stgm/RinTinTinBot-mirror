@@ -36,7 +36,7 @@ Prerequisites for running the Docker image:
 
 One-Command-Installation (preferred method):
 ```
-curl https://git.bjphoster.com/bryanpedini/RinTinTinBot/glob/master/one-command-installer.sh -O - | sudo sh -
+curl https://git.bjphoster.com/bryanpedini/RinTinTinBot/raw/branch/master/one-command-installer.sh -O - | sudo sh -
 ```
 from inside the directory you want the bot to be running (prerequisite: `curl`)
 <br>
@@ -52,5 +52,5 @@ Then, let the program generate the example configuration file, and adjust that a
 ```
 Now, optionally, install the custom service file to let the bot be ran at startup, quickly reloaded, and restarted (assuming `systemd` instead of `init.d`)
 ```
-sudo wget https://git.bjphoster.com/bryanpedini/RinTinTinBot/glob/master/conf/RinTinTin.service -O /usr/lib/systemd/system/RinTinTin.service
+sudo wget https://git.bjphoster.com/bryanpedini/RinTinTinBot/raw/branch/master/conf/RinTinTin.service -O /usr/lib/systemd/system/RinTinTin.service
 ```
