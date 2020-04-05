@@ -21,9 +21,14 @@ import (
 	"testing"
 )
 
+func cleanupGenerateDefaultConfig() {
+	os.RemoveAll("conf")
+}
+
 func TestGenerateDefaultConfig(t *testing.T) {
 	GenerateDefaultConfig()
 	if _, err := os.Stat("conf/app.ini"); os.IsNotExist(err) {
 		t.Fatal("Unable to generate default config file: ", err)
 	}
+	t.Cleanup(cleanupGenerateDefaultConfig)
 }
