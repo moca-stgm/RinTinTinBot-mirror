@@ -7,7 +7,7 @@
 
 ## Table of contents:
 - [Introduction](#introduction)
-- [Scope of the software](#scope%20of%20the%20software)
+- [Scope of the software](#scope-of-the-software)
 - [Installation](#installation)
 
 
