@@ -1,5 +1,10 @@
 # RinTinTin - a better GroupHelpBot for your network friend groups
 
+[![Build: Passing](https://travis-ci.com/bryanpedini/RinTinTinBot-mirror.svg?branch=master)](https://travis-ci.com/bryanpedini/RinTinTinBot-mirror)
+[![codecov](https://codecov.io/gh/bryanpedini/RinTinTinBot-mirror/branch/master/graph/badge.svg)](https://travis-ci.com/github/bryanpedini/RinTinTinBot-mirror)
+
+
+
 ## Table of contents:
 - [Introduction](#introduction)
 - [Scope of the software](#scope%20of%20the%20software)
